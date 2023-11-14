@@ -4,11 +4,13 @@
 @tailwind utilities;
 
 :root {
-  --font-base: "PT Sans", sans-serif;
+  --font-base: 'PT Sans', sans-serif;
   --font-manrope: 'Manrope', sans-serif;
   --font-space: 'Space Grotesk', sans-serif;
   --green-color: #27a949;
+  --dark-green-color: #3B7A4C;
   --orange-color: #ec910f;
+  --dark-orange-color: #CF7C06;
   --grey-color: #5e5e5e;
   --light-grey-color: #707070;
   --light-white-color: #fdfdfd;
