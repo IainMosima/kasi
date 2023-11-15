@@ -28,8 +28,7 @@
     @apply text-[22px] lg:text-[48px] md:text-[32px]
   }
   h3 {
-    @apply text-[64px] lg:text-[28px] md:text-[20px]
-
+    @apply text-[28px] lg:text-[40px] md:text-[20px]
   }
   h4 {
     @apply text-[48px] lg:text-[24px] md:text-[16px]
@@ -38,6 +37,6 @@
     @apply text-[28px] lg:text-[18px] md:text-[16px]
   }
   body {
-    @apply text-[28px] lg:text-[18px] md:text-[16px] w-full
+    @apply text-[18px] lg:text-[28px] md:text-[16px] w-full
   }
 }
