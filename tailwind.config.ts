@@ -15,12 +15,16 @@ const config: Config = {
         darkOrange: '#CF7C06',
         grey: '#5E5E5E',
         lightGrey: '#707070',
-        lightWhite: '#FDFDFD'
+        lightWhite: '#FDFDFD',
+        lightGreen: 'rgba(6, 193, 103, 0.10)'
       },
       fontFamily: {
         base: ['PT Sans', 'sans-serif'],
         manrope: ['Manrope', 'sans-serif'],
         space: ['Space Grotesk', 'sans-serif']
+      },
+      borderWidth :{
+        sm: '0.25rem'
       }
     },
   },

@@ -38,6 +38,6 @@
     @apply text-[28px] lg:text-[18px] md:text-[16px]
   }
   body {
-    @apply text-[28px] lg:text-[18px] md:text-[16px]
+    @apply text-[28px] lg:text-[18px] md:text-[16px] w-full
   }
 }
