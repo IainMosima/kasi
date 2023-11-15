@@ -16,7 +16,8 @@ const config: Config = {
         grey: '#5E5E5E',
         lightGrey: '#707070',
         lightWhite: '#FDFDFD',
-        lightGreen: 'rgba(6, 193, 103, 0.10)'
+        lightGreen: 'rgba(6, 193, 103, 0.10)',
+        lightGrey2: 'rgba(226, 226, 226, 0.25)'
       },
       fontFamily: {
         base: ['PT Sans', 'sans-serif'],
