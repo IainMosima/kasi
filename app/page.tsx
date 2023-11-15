@@ -1,9 +1,7 @@
-import Image from 'next/image'
+import Body from '@/components/Body/Body'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen">
-      
-    </main>
+    <Body />
   )
 }

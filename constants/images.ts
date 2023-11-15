@@ -1,7 +1,9 @@
+/* eslint-disable import/no-anonymous-default-export */
 import logo from '@/public/icons/logo.png';
 import signIn from '@/public/icons/sign-in.png';
-// eslint-disable-next-line import/no-anonymous-default-export
+import homeImage from '@/public/assets/home-image.png';
 export default {
         logo,
-        signIn
+        signIn,
+        homeImage
 }
