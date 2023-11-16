@@ -28,7 +28,7 @@
     @apply text-[22px] lg:text-[48px] md:text-[32px]
   }
   h3 {
-    @apply text-[28px] lg:text-[40px] md:text-[32px]
+    @apply text-[22px] lg:text-[40px] md:text-[32px]
   }
   h4 {
     @apply text-[20px] lg:text-[22px] md:text-[20x]
