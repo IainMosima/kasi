@@ -1,6 +1,7 @@
 import React from 'react';
 import { Images } from '@/constants';
 import Image from 'next/image';
+import Link from 'next/link';
 
 const partners = [
   {
@@ -39,7 +40,7 @@ const partners = [
 
 const Body = () => {
   return (
-    <main className='w-full flex flex-col place-items-center gap-6'>
+    <main className='w-full flex flex-col place-items-center gap-[3rem]'>
       {/* part 1 */}
       <div className='w-full flex flex-col place-items-center gap-4'>
 
@@ -66,7 +67,7 @@ const Body = () => {
         <div className='grid lg:grid-cols-4 grid-cols-8 sm:gap-x-[3.3rem] gap-[1rem] place-content-center'>
           {partners.map(partner => (
             <div key={partner.name} className='grid h-auto auto-rows-auto'>
-              <Image src={partner.image} alt={partner.name} />
+              <Image src={partner.image} alt={partner.name} priority={true}/>
               <p className='text-sm font-base font-normal text-grey'>{partner.name}</p>
             </div>
           ))}
@@ -75,7 +76,7 @@ const Body = () => {
       </div>
 
       {/* part 3 */}
-      <div className='flex gap-[3rem] w-full flex-col'>
+      <div className='flex gap-[4rem] w-full flex-col'>
         <h3 className='lg:leading-[3rem] text-left font-semibold tracking-wide font-base'>Statistics</h3>
 
         <div className='flex w-full flex-col gap-2 justify-start'>
@@ -105,8 +106,26 @@ const Body = () => {
             <p className='font-manrope text-left sm:place-self-center sm:text-[4rem] text-[3rem] font-normal'>09/10</p>
           </div>
         </div>
-
       </div>
+
+      {/* part 4 */}
+      <div className='flex w-full justify-between gap-2'>
+        <div className='hidden lg:flex w-full'></div>
+
+        <div className='flex flex-col place-items-center w-full gap-2'>
+          <h3 className='text-left font-base font-noraml'>We continue to drive <span className='text-green'>excellence</span> in logistics, ensuring <span className='text-green'>seamless supply chains</span> and satisfied clients.</h3>
+          <Image src={Images.motorcycle} height={400} alt='mortocycle' priority={true}/>
+          <div className='flex justify-between place-items-center w-full'>
+            <p className='text-green text-sm sm:w-[20%] w-[45%]'>Get Started by Clicking the Sign Up button</p>
+            <Link href='/sign-up' className='text-white bg-green px-[3rem] py-2 rounded-md flex place-items-center gap-2'>
+              <p className='text-[1.5rem] text-base'>Sign Up</p>
+              <Image src={Images.rightArrow} alt='right-arrow' priority={true} width={15}/>
+            </Link>
+          </div>
+        </div>
+      </div>
+      <br/>
+
 
     </main>
   )

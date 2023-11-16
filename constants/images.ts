@@ -10,6 +10,11 @@ import uberEats from '@/public/icons/uber-eats.png';
 import jumiaFood from '@/public/icons/jumia-food.png';
 import uber from '@/public/icons/uber.png';
 import littleBoda from '@/public/icons/little-boda.png';
+import motorcycle from '@/public/assets/mortocyle.png';
+import rightArrow from '@/public/icons/right-arrow.png';
+import whiteStripes from '@/public/icons/black-stripes.png';
+import greenStripes from '@/public/icons/green-stripes.png';
+
 export default {
         logo,
         signIn,
@@ -22,4 +27,8 @@ export default {
         jumiaFood,
         uber,
         littleBoda,
+        motorcycle,
+        rightArrow,
+        whiteStripes,
+        greenStripes,
 }
