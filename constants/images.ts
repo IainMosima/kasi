@@ -9,6 +9,7 @@ import uberBoda from '@/public/icons/uber-boda.png';
 import uberEats from '@/public/icons/uber-eats.png';
 import jumiaFood from '@/public/icons/jumia-food.png';
 import uber from '@/public/icons/uber.png';
+import littleBoda from '@/public/icons/little-boda.png';
 export default {
         logo,
         signIn,
@@ -20,4 +21,5 @@ export default {
         uberEats,
         jumiaFood,
         uber,
+        littleBoda,
 }

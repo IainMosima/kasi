@@ -40,3 +40,21 @@
     @apply text-[18px] lg:text-[28px] md:text-[16px] w-full
   }
 }
+
+/* Target the scrollbar */
+::-webkit-scrollbar {
+  width: 7px; /* Change the width of the vertical scrollbar */
+  height: 7px; /* Change the height of the horizontal scrollbar */
+}
+
+/* Track (background) of the scrollbar */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* You can set any background color you want */
+}
+
+/* Handle (thumb) of the scrollbar */
+::-webkit-scrollbar-thumb {
+  background: #888; /* You can set any color for the scrollbar thumb */
+  border-radius: 4px;
+}
+
