@@ -41,7 +41,7 @@ const Body = () => {
   return (
     <main className='w-full flex flex-col place-items-center gap-6'>
       {/* part 1 */}
-      <div className='w-full flex flex-col place-items-center'>
+      <div className='w-full flex flex-col place-items-center gap-4'>
 
         <h1 className='text-center w-[93%] font-base'><span className='text-green'>KASI</span> is a comprehensive <span className='text-green'>logistics</span> solutions provider dedicated to assisting brands with their specific challenges related to the <span className='text-green'>pickup and delivery</span> of products</h1>
 
@@ -54,7 +54,8 @@ const Body = () => {
       {/* part 2 */}
       <div className='w-full flex-col lg:flex-row flex  min-h-[40vh] place-items-center lg:justify-center gap-7'>
 
-        <div className='flex justify-between flex-col lg:flex-col md:flex-row sm:gap-7 gap-3'>
+        <div className='flex justify-between flex-col lg:flex-col md:flex-row sm:gap-7 gap-7'>
+
           <h3 className='lg:leading-[3rem] font-semibold tracking-wide font-base sm:w-[30%]'>Partners we work with</h3>
 
           {/* <div className='flex flex-col font-semibold tracking-wide font-base w-[23%]'></div> */}
@@ -74,6 +75,12 @@ const Body = () => {
       </div>
 
       {/* part 3 */}
+      <div className='flex flex-col justify-center min-h-[40vh]'>
+        <h3 className='lg:leading-[3rem] font-semibold tracking-wide font-base'>Statistics</h3>
+
+        <div className='grid'></div>
+
+      </div>
 
     </main>
   )
