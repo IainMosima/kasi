@@ -169,13 +169,13 @@ const Body = () => {
         <div className='grid sm:grid-cols-2 gap-[2rem] sm:px-0 px-3 w-full'>
           <div className='grid grid-rows-3 border px-[3rem] gap-5 py-[1.5rem] w-[full] h-[full] bg-[#201F1D]'>
             <p className='font-base text-[2.1rem] w-[40%] font-bold text-[#D5F756]'>Our Mission</p>
-            <Image src={Images.greenStripes} alt='green-stripes' className='place-self-end' height={110} />
+            <Image src={Images.greenStripes} alt='green-stripes' className='place-self-end'  priority={true} height={110} />
             <p className='font-manrope text-[1rem] font-normal leading-5 place-self-center text-white'>{`Empowering brands with seamless logistics: From pickup to delivery, we're with you every step of the way.`}</p>
           </div>
 
           <div className='grid grid-rows-3 border px-[3rem] gap-5 py-[1.5rem] w-[full] h-[full] bg-green'>
             <p className='font-base text-[2.1rem] w-[40%] font-bold text-white'>Our Vision</p>
-            <Image src={Images.whiteStripes} alt='white-stripes' className='place-self-end' height={110} />
+            <Image src={Images.whiteStripes} alt='white-stripes' priority={true} className='place-self-end' height={110} />
             <p className='font-manrope text-[1rem] font-normal leading-5 place-self-center text-white'>{`To be the foremost choice in logistics solutions, setting industry standards and creating a world where product distribution is effortless and reliable.`}</p>
           </div>
         </div>
