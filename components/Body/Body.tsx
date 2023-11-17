@@ -158,6 +158,29 @@ const Body = () => {
       </div>
 
       {/* part 5 */}
+      <div className='flex lg:flex-row flex-col w-full gap-6 lg:gap-[10rem]'>
+        <div className='flex flex-col lg:flex-col gap-2 basis-[40%] md:flex-row md:justify-between lg:justify-center w-full'>
+          <h3 className='text-left font-base font-noraml'>Our Ethos</h3>
+          <p className='text-left text-[1rem] leading-5 font-manrope font-normal md:basis-[50%]'>{`At KASI, our ethos is grounded in reliability, innovation, and a steadfast dedication to our clients' success. We believe in going the extra mile, ensuring that your deliveriesreach you safely and efficiently.`}</p>
+        </div>
+        <Image src={Images.delivery} alt='delivery' priority={true} className='lg:hidden self-center'/>
+
+
+        <div className='grid sm:grid-cols-2 gap-[2rem] sm:px-0 px-3 w-full'>
+          <div className='grid grid-rows-3 border px-[3rem] gap-5 py-[1.5rem] w-[full] h-[full] bg-[#201F1D]'>
+            <p className='font-base text-[2.1rem] w-[40%] font-bold text-[#D5F756]'>Our Mission</p>
+            <Image src={Images.greenStripes} alt='green-stripes' className='place-self-end' height={110} />
+            <p className='font-manrope text-[1rem] font-normal leading-5 place-self-center text-white'>{`Empowering brands with seamless logistics: From pickup to delivery, we're with you every step of the way.`}</p>
+          </div>
+
+          <div className='grid grid-rows-3 border px-[3rem] gap-5 py-[1.5rem] w-[full] h-[full] bg-green'>
+            <p className='font-base text-[2.1rem] w-[40%] font-bold text-white'>Our Vision</p>
+            <Image src={Images.whiteStripes} alt='white-stripes' className='place-self-end' height={110} />
+            <p className='font-manrope text-[1rem] font-normal leading-5 place-self-center text-white'>{`To be the foremost choice in logistics solutions, setting industry standards and creating a world where product distribution is effortless and reliable.`}</p>
+          </div>
+        </div>
+
+      </div>
 
       {/* part 6 */}
       <div className='flex lg:flex-row flex-col w-full gap-6 lg:gap-[10rem]'>

@@ -12,8 +12,9 @@ import uber from '@/public/icons/uber.png';
 import littleBoda from '@/public/icons/little-boda.png';
 import motorcycle from '@/public/assets/mortocyle.png';
 import rightArrow from '@/public/icons/right-arrow.png';
-import whiteStripes from '@/public/icons/black-stripes.png';
+import whiteStripes from '@/public/icons/white-stripes.png';
 import greenStripes from '@/public/icons/green-stripes.png';
+import blackStripes from '@/public/icons/black-stripes.png';
 import value1 from '@/public/icons/1.png';
 import value2 from '@/public/icons/2.png';
 import value3 from '@/public/icons/3.png';
@@ -21,6 +22,8 @@ import value4 from '@/public/icons/4.png';
 import value5 from '@/public/icons/5.png';
 import intersection from '@/public/icons/intersection.png';
 import downArrow from '@/public/icons/down-arrow.png';
+import delivery from '@/public/assets/delivery.png';
+
 
 export default {
         logo,
@@ -38,6 +41,7 @@ export default {
         rightArrow,
         whiteStripes,
         greenStripes,
+        blackStripes,
         value1,
         value2,
         value3,
@@ -45,4 +49,5 @@ export default {
         value5,
         intersection,
         downArrow,
+        delivery,
 }
