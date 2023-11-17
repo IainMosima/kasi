@@ -14,6 +14,13 @@ import motorcycle from '@/public/assets/mortocyle.png';
 import rightArrow from '@/public/icons/right-arrow.png';
 import whiteStripes from '@/public/icons/black-stripes.png';
 import greenStripes from '@/public/icons/green-stripes.png';
+import value1 from '@/public/icons/1.png';
+import value2 from '@/public/icons/2.png';
+import value3 from '@/public/icons/3.png';
+import value4 from '@/public/icons/4.png';
+import value5 from '@/public/icons/5.png';
+import intersection from '@/public/icons/intersection.png';
+import downArrow from '@/public/icons/down-arrow.png';
 
 export default {
         logo,
@@ -31,4 +38,11 @@ export default {
         rightArrow,
         whiteStripes,
         greenStripes,
+        value1,
+        value2,
+        value3,
+        value4,
+        value5,
+        intersection,
+        downArrow,
 }
