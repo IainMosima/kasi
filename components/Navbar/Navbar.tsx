@@ -59,7 +59,7 @@ const Navbar = () => {
                         <Link href='/sign-up' className={`w-full rounded-sm  text-sm text-left px-3 py-4 ${currentTab === 'sign-up' ? 'bg-lightGreen text-green' : 'bg-lightGrey2 text-grey'}`} onClick={() => { setCurrentTab('sign-up'); setMenuToggle(false) }}>SIGN UP</Link>
                     </div>
 
-                    <Link href='/login' className='bg-orange flex rounded-sm justify-center place-items-center gap-1 text-[1rem] text-white px-6 py-2 font-semibold font-monrope'>
+                    <Link href='/login' onClick={() => setMenuToggle(false)} className='bg-orange flex rounded-sm justify-center place-items-center gap-1 text-[1rem] text-white px-6 py-2 font-semibold font-monrope'>
                         <p>LOG IN</p>
                         <Image src={Images.signIn} alt='signin' height={15} priority={true} />
                     </Link>
