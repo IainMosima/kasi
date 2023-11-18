@@ -28,15 +28,15 @@ const links = {
   socials: [
     {
       name: 'Facebook',
-      link: 'www.facebook.com'
+      link: 'https://www.facebook.com'
     },
     {
       name: 'Twitter',
-      link: 'www.twitter.com'
+      link: 'https://www.twitter.com'
     },
     {
       name: 'Instagram',
-      link: 'www.instagram.com'
+      link: 'https://www.instagram.com'
     },
   ]
 }
@@ -61,7 +61,7 @@ const Footer = () => {
         <h4 className="text-left font-manrope font-bold">SOCIAL</h4>
         <div className="flex flex-col place-items-start gap-2">
           {links.socials.map(link => (
-            <Link key={link.name} href={link.link} className="text-sm font-semibold">{link.name}</Link>
+            <Link key={link.name} href={link.link} rel="noopener noreferrer" target="_blank" className="text-sm font-semibold">{link.name}</Link>
           ))}
         </div>
       </div>
