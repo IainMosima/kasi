@@ -163,17 +163,17 @@ const Body = () => {
           <h3 className='text-left font-base font-noraml'>Our Ethos</h3>
           <p className='text-left text-[1rem] leading-5 font-manrope font-normal md:basis-[50%]'>{`At KASI, our ethos is grounded in reliability, innovation, and a steadfast dedication to our clients' success. We believe in going the extra mile, ensuring that your deliveriesreach you safely and efficiently.`}</p>
         </div>
-        <Image src={Images.delivery} alt='delivery' priority={true} className='lg:hidden self-center'/>
+        <Image src={Images.delivery} alt='delivery' priority={true} className='lg:hidden self-center' />
 
 
         <div className='grid sm:grid-cols-2 gap-[2rem] sm:px-0 px-3 w-full'>
-          <div className='grid grid-rows-3 border px-[3rem] gap-5 py-[1.5rem] w-[full] h-[full] bg-[#201F1D]'>
+          <div className='grid grid-rows-3 border px-[3rem] gap-5 py-[1.5rem] w-[full] h-[full] bg-[#201F1D] custom-shadow'>
             <p className='font-base text-[2.1rem] w-[40%] font-bold text-[#D5F756]'>Our Mission</p>
-            <Image src={Images.greenStripes} alt='green-stripes' className='place-self-end'  priority={true} height={110} />
+            <Image src={Images.greenStripes} alt='green-stripes' className='place-self-end' priority={true} height={110} />
             <p className='font-manrope text-[1rem] font-normal leading-5 place-self-center text-white'>{`Empowering brands with seamless logistics: From pickup to delivery, we're with you every step of the way.`}</p>
           </div>
 
-          <div className='grid grid-rows-3 border px-[3rem] gap-5 py-[1.5rem] w-[full] h-[full] bg-green'>
+          <div className='grid grid-rows-3 border px-[3rem] gap-5 py-[1.5rem] w-[full] h-[full] bg-green custom-shadow  '>
             <p className='font-base text-[2.1rem] w-[40%] font-bold text-white'>Our Vision</p>
             <Image src={Images.whiteStripes} alt='white-stripes' priority={true} className='place-self-end' height={110} />
             <p className='font-manrope text-[1rem] font-normal leading-5 place-self-center text-white'>{`To be the foremost choice in logistics solutions, setting industry standards and creating a world where product distribution is effortless and reliable.`}</p>
@@ -209,6 +209,162 @@ const Body = () => {
           </Link>
         </div>
 
+      </div>
+
+      {/* part 7 */}
+      <div className='w-full bg-orange '>
+        <div className='w-full relative lg:px-[7rem] md:px-[4rem] lg:py-[4rem] md:py-[2rem] px-3 py-6'>
+          <p className='text-white sm:text-[1.7rem] text-[1rem] font-normal font-base'>{`Brands collaborating with KASI are not just accessing a reliable logistics partner, they're making a conscious choice to support sustainability, innovation, and the future of eco-friendly transportation. This alignment not only boosts the brand's image but also ensures that they're part of the global solution to environmental challenges.`}</p>
+          <Image src={Images.rings} alt="rings" priority={true} className='absolute  right-0 top-0 sm:w-[10rem] sm:h-[20rem] w-[7.5rem] h-[15rem] z-0 opacity-[0.25]' />
+        </div>
+      </div>
+
+      {/* part 8 */}
+      <div className='flex flex-col gap-[2rem] w-full'>
+        <h3 className='text-left font-base font-semibold lg:w-[15%] md:w-[30%]'>Why Partner with KASI</h3>
+
+        <div className='hidden md:grid lg:grid-cols-3 md:grid-cols-2 w-full place-items-center gap-x-[1.5rem] gap-y-[2.4rem]'>
+          {/* Environmental benefits */}
+          <div className='lg:col-span-1 flex flex-col p-2 h-full'>
+            <p className='font-base text-[1.5rem]  w-[10%] font-bold basis-[50%]'>Environmental Benefits</p>
+            <p className='font-base text-[1.2rem] font-semibold'>Reduced Carbon Footprint</p>
+            <p className='font-base text-[.9rem] text-manrope text-grey'>{`Electric motorbikes produce zero direct emissions. This means they contribute significantly less to greenhouse gas emissions compared to traditional gasoline powered vehicles.`}</p>
+            <p className='font-base text-[1.2rem] font-semibold'>Noise Pollution</p>
+            <p className='font-base text-[.9rem] text-manrope text-grey'>{`Electric motorbikes operate at a significantly lower noise level, reducing noise pollution in urban areas.`}</p>
+            <p className='font-bold text-[1.5rem] font-space self-end'>01</p>
+          </div>
+          <Image src={Images.motorcycle} className='lg:col-span-2 place-self-center' priority={true} alt='motorcycle ' />
+
+          {/* Operational Efficiency */}
+          <Image src={Images.delivery2} className='lg:col-span-2 place-self-center ' priority={true} alt='motorcycle' />
+          <div className='lg:col-span-1 flex flex-col p-2 h-full'>
+            <p className='font-base text-[1.5rem]  w-[10%] font-bold basis-[50%]'>Operational Efficiency</p>
+            <p className='font-base text-[1.2rem] font-semibold'>Lower Operational Costs</p>
+            <p className='font-base text-[.9rem] text-manrope text-grey'>{`Electric motorbikes generally have fewer moving parts than their gasoline counterparts, leading to less wear and tear and reduced maintenance costs. Additionally, electricity is often cheaper than gasoline, leading to cost savings in refueling.`}</p>
+            <p className='font-base text-[1.2rem] font-semibold'>Noise Quick and Nimble</p>
+            <p className='font-base text-[.9rem] text-manrope text-grey'>{`Their compact size and agility make electric motorbikes perfect for navigating through congested city streets, ensuring quicker deliveries.`}</p>
+            <p className='font-bold text-[1.5rem] font-space self-end'>02</p>
+          </div>
+
+
+          {/* Public Perception and Branding */}
+          <div className='lg:col-span-1 flex flex-col p-2 h-full'>
+            <p className='font-base text-[1.5rem]  w-[40%] font-bold basis-[50%]'>Public Perception and Branding</p>
+            <p className='font-base text-[1.2rem] font-semibold'>Sustainability Image</p>
+            <p className='font-base text-[.9rem] text-manrope text-grey'>{`Brands that align themselves with environmentally-conscious partners like KASI will be perceived as more responsible and sustainable. This can be a significant competitive advantage in markets where consumers are becoming increasingly eco-aware.`}</p>
+            <p className='font-base text-[1.2rem] font-semibold'>Supporting Innovation</p>
+            <p className='font-base text-[.9rem] text-manrope text-grey'>{`By supporting a company that employs electric motorbikes, brands position themselves as champions of innovative and sustainable solutions.`}</p>
+            <p className='font-bold text-[1.5rem] font-space self-end'>03</p>
+          </div>
+          <Image src={Images.delivery3} className='lg:col-span-2 place-self-center' priority={true} alt='delivery' />
+
+          {/* Economic Implications */}
+          <Image src={Images.smiling} className='lg:col-span-2 place-self-center' priority={true} alt='smiling' />
+          <div className='lg:col-span-1 flex flex-col p-2 h-full'>
+            <p className='font-base text-[1.5rem]  w-[10%] font-bold basis-[50%]'>Economic Implications</p>
+            <p className='font-base text-[1.2rem] font-semibold'>Supporting Green Tech</p>
+            <p className='font-base text-[.9rem] text-manrope text-grey'>{`Investing in electric motorbikes indirectly supports the broader green technology sector, driving further advancements and innovations in sustainable transportation.`}</p>
+            <p className='font-base text-[1.2rem] font-semibold'>Fuel Independence</p>
+            <p className='font-base text-[.9rem] text-manrope text-grey'>{`By not relying on volatile oil markets, KASI can maintain more consistent operational costs,benefiting both the company and its clients.`}</p>
+            <p className='font-bold text-[1.5rem] font-space self-end'>04</p>
+          </div>
+
+          {/* Future-proofing */}
+          <div className='lg:col-span-1 flex flex-col p-2 h-full'>
+            <p className='font-base text-[1.5rem]  w-[40%] font-bold basis-[70%]'>Future-proofing</p>
+            <p className='font-base text-[1.2rem] font-semibold'>Regulation Ready</p>
+            <p className='font-base text-[.9rem] text-manrope text-grey'>{`Many cities around the world are introducing stricter emissions regulations or outright bans on gasoline-powered vehicles in certain zones. By using electric motorbikes, KASI is well-prepared for such future regulatory changes, ensuring uninterrupted service.`}</p>
+            <p className='font-bold text-[1.5rem] font-space self-end'>05</p>
+          </div>
+          <Image src={Images.motorcycle2} className='lg:col-span-2 place-self-center' priority={true} alt='motorcycle' />
+
+        </div>
+
+        {/* for mobile */}
+        <div className='w-full grid sm:hidden place-items-center lg:grid-cols-3 md:grid-cols-2 gap-x-[1.5rem] gap-y-[2.4rem]'>
+          {/* Environmental benefits */}
+          <div className='lg:col-span-1 flex flex-col p-2 h-full'>
+            <p className='font-base text-[1.5rem] font-bold mb-5'>Environmental Benefits</p>
+            <p className='font-base text-[1.2rem] font-semibold'>Reduced Carbon Footprint</p>
+            <p className='font-base text-[.9rem] text-manrope text-grey'>{`Electric motorbikes produce zero direct emissions. This means they contribute significantly less to greenhouse gas emissions compared to traditional gasoline powered vehicles.`}</p>
+            <p className='font-base text-[1.2rem] font-semibold'>Noise Pollution</p>
+            <p className='font-base text-[.9rem] text-manrope text-grey'>{`Electric motorbikes operate at a significantly lower noise level, reducing noise pollution in urban areas.`}</p>
+            <p className='font-bold text-[1.5rem] font-space self-end'>01</p>
+          </div>
+          <Image src={Images.motorcycle} className='lg:col-span-2 place-self-center' priority={true} alt='motorcycle ' />
+
+          {/* Operational Efficiency */}
+          <div className='lg:col-span-1 flex flex-col p-2 h-full'>
+            <p className='font-base text-[1.5rem] font-bold mb-5'>Operational Efficiency</p>
+            <p className='font-base text-[1.2rem] font-semibold'>Lower Operational Costs</p>
+            <p className='font-base text-[.9rem] text-manrope text-grey'>{`Electric motorbikes generally have fewer moving parts than their gasoline counterparts, leading to less wear and tear and reduced maintenance costs. Additionally, electricity is often cheaper than gasoline, leading to cost savings in refueling.`}</p>
+            <p className='font-base text-[1.2rem] font-semibold'>Noise Quick and Nimble</p>
+            <p className='font-base text-[.9rem] text-manrope text-grey'>{`Their compact size and agility make electric motorbikes perfect for navigating through congested city streets, ensuring quicker deliveries.`}</p>
+            <p className='font-bold text-[1.5rem] font-space self-end'>02</p>
+          </div>
+          <Image src={Images.delivery2} className='lg:col-span-2 place-self-center ' priority={true} alt='motorcycle' />
+
+
+
+          {/* Public Perception and Branding */}
+          <div className='lg:col-span-1 flex flex-col p-2 h-full'>
+            <p className='font-base text-[1.5rem] font-bold mb-5'>Public Perception and Branding</p>
+            <p className='font-base text-[1.2rem] font-semibold'>Sustainability Image</p>
+            <p className='font-base text-[.9rem] text-manrope text-grey'>{`Brands that align themselves with environmentally-conscious partners like KASI will be perceived as more responsible and sustainable. This can be a significant competitive advantage in markets where consumers are becoming increasingly eco-aware.`}</p>
+            <p className='font-base text-[1.2rem] font-semibold'>Supporting Innovation</p>
+            <p className='font-base text-[.9rem] text-manrope text-grey'>{`By supporting a company that employs electric motorbikes, brands position themselves as champions of innovative and sustainable solutions.`}</p>
+            <p className='font-bold text-[1.5rem] font-space self-end'>03</p>
+          </div>
+          <Image src={Images.delivery3} className='lg:col-span-2 place-self-center' priority={true} alt='delivery' />
+
+          {/* Economic Implications */}
+          <div className='lg:col-span-1 flex flex-col p-2 h-full'>
+            <p className='font-base text-[1.5rem] font-bold mb-5'>Economic Implications</p>
+            <p className='font-base text-[1.2rem] font-semibold'>Supporting Green Tech</p>
+            <p className='font-base text-[.9rem] text-manrope text-grey'>{`Investing in electric motorbikes indirectly supports the broader green technology sector, driving further advancements and innovations in sustainable transportation.`}</p>
+            <p className='font-base text-[1.2rem] font-semibold'>Fuel Independence</p>
+            <p className='font-base text-[.9rem] text-manrope text-grey'>{`By not relying on volatile oil markets, KASI can maintain more consistent operational costs,benefiting both the company and its clients.`}</p>
+            <p className='font-bold text-[1.5rem] font-space self-end'>04</p>
+          </div>
+          <Image src={Images.smiling} className='lg:col-span-2 place-self-center' priority={true} alt='smiling' />
+
+
+          {/* Future-proofing */}
+          <div className='lg:col-span-1 flex flex-col p-2 h-full'>
+            <p className='font-base text-[1.5rem] font-bold mb-5'>Future-proofing</p>
+            <p className='font-base text-[1.2rem] font-semibold'>Regulation Ready</p>
+            <p className='font-base text-[.9rem] text-manrope text-grey'>{`Many cities around the world are introducing stricter emissions regulations or outright bans on gasoline-powered vehicles in certain zones. By using electric motorbikes, KASI is well-prepared for such future regulatory changes, ensuring uninterrupted service.`}</p>
+            <p className='font-bold text-[1.5rem] font-space self-end'>05</p>
+          </div>
+          <Image src={Images.motorcycle2} className='lg:col-span-2 place-self-center' priority={true} alt='motorcycle' />
+        </div>
+
+        <div className='flex col-span-3 w-full justify-end'>
+          <Link href='/pricing' className='col-span-2 lg:w-[30%] md:w-[40%] w-[80%]'>
+            <div className='flex flex-col w-full h-full p-3 border-[#F2F2F2] bg-orange'>
+              <p className='text-white font-base font-bold sm:w-[60%] w-[80%] text-[1.25rem]'>Our  wallet friendly pricing list is but one click away. Check it out.</p>
+              <Image src={Images.downArrow} alt='intersection' className='self-end' priority={true} />
+            </div>
+          </Link>
+        </div>
+
+      </div>
+
+      {/* part 9 */}
+      <div className='w-full'>
+        <div className='w-full relative'>
+          <Image src={Images.smiling2} alt='smiling' />
+          <div className='flex flex-col justify-center place-items-center gap-5 w-full absolute lg:top-[30%] md:top-[23%] top-[10%]'>
+            <p className='text-white lg:text-[3.5rem] md:text-[2.5rem]  w-[47%] font-bold font-base text-center'>Get in touch with our customer care team</p>
+            
+            <Link href='/contact-us'>
+              <div className='bg-green w-[10rem] flex justify-center place-items-center gap-3 sm:px-[2rem] sm:py-[.8rem] px-[1.5rem] py-[.4rem] rounded-sm'>
+                <p className='font-base text-white font-semibold text-[1rem]'>Email Us</p>
+                <Image src={Images.email} alt='email' priority={true} height={21}/>
+              </div>
+            </Link>
+          </div>
+        </div>
       </div>
 
       <br />

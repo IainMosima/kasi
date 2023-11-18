@@ -1,0 +1,9 @@
+.custom-shadow {
+  box-shadow: 4px 8px 10px 0px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 4px 8px 10px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 4px 8px 10px 0px rgba(0, 0, 0, 0.1);
+}
+
+.custom-background {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url(/public/assets/smiling2.png), lightgray 0px -10.117px / 100% 166.657% no-repeat;
+}

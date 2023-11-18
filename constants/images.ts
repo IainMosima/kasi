@@ -23,8 +23,13 @@ import value5 from '@/public/icons/5.png';
 import intersection from '@/public/icons/intersection.png';
 import downArrow from '@/public/icons/down-arrow.png';
 import delivery from '@/public/assets/delivery.png';
-
-
+import rings from '@/public/icons/rings.png';
+import delivery2 from '@/public/assets/delivery2.png';
+import delivery3 from '@/public/assets/delivery3.png';
+import motorcycle2 from '@/public/assets/mortocyle2.png';
+import smiling from '@/public/assets/smiling.png';
+import smiling2 from '@/public/assets/smiling2.png';
+import email from '@/public/icons/email.png';
 export default {
         logo,
         signIn,
@@ -50,4 +55,11 @@ export default {
         intersection,
         downArrow,
         delivery,
+        rings,
+        delivery2,
+        delivery3,
+        motorcycle2,
+        smiling,
+        smiling2,
+        email,
 }
