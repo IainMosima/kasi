@@ -16,7 +16,7 @@ const Navbar = () => {
     }, [pathname]);
 
     return (
-        <div className='fixed w-full top-0'>
+        <div className='fixed w-full top-0 z-50'>
             <div className='relative'>
                 <div className='flex  justify-between custom-shadow py-3 px-3 place-items-center bg-white'>
                     {/* logo */}

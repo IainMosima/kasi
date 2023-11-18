@@ -354,6 +354,7 @@ const Body = () => {
       <div className='w-full'>
         <div className='w-full relative'>
           <Image src={Images.smiling2} alt='smiling' priority={true}/>
+          
           <div className='flex flex-col justify-center place-items-center gap-5 w-full absolute lg:top-[30%] md:top-[23%] top-[10%]'>
             <p className='text-white lg:text-[3.5rem] md:text-[2.5rem]  w-[47%] font-bold font-base text-center'>Get in touch with our customer care team</p>
             
