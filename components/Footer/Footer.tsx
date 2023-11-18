@@ -45,7 +45,7 @@ const Footer = () => {
     <div className="grid grid-cols-4 font-manrope place-items-stretch sm:gap-x-3 gap-x-[.3rem] py-[2rem] px-[1rem]">
       <div className="flex flex-col gap-3 w-full justify-end  ">
         <h2 className="text-left ml-[8%] font-manrope font-bold">KASI</h2>
-        <Image src={Images.blackStripes} width={200} alt='black-stripes' />
+        <Image src={Images.blackStripes} width={200} alt='black-stripes' priority={true}/>
       </div>
 
       <div className="flex flex-col gap-3 w-full h-full justify-start place-items-start">
