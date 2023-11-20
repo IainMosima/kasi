@@ -30,6 +30,7 @@ import motorcycle2 from '@/public/assets/mortocyle2.png';
 import smiling from '@/public/assets/smiling.png';
 import smiling2 from '@/public/assets/smiling2.png';
 import email from '@/public/icons/email.png';
+
 export default {
         logo,
         signIn,
@@ -62,4 +63,5 @@ export default {
         smiling,
         smiling2,
         email,
+        
 }

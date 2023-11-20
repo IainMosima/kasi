@@ -18,10 +18,10 @@ const Navbar = () => {
     return (
         <div className='fixed w-full top-0 z-50'>
             <div className='relative'>
-                <div className='flex  justify-between custom-shadow py-3 px-3 place-items-center bg-white'>
+                <div className='flex  justify-between custom-shadow py-3 sm:px-[2rem] p-[1rem] place-items-center bg-white'>
                     {/* logo */}
                     <Link href='/'>
-                        <Image src={Images.logo} alt="logo" width={100} priority={true} />
+                        <Image src={Images.logo} alt="logo" width={120} priority={true} />
                     </Link>
 
                     {/* desktop links */}
@@ -36,8 +36,8 @@ const Navbar = () => {
                     </div>
 
                     {/* desktop login */}
-                    <Link href='/login' className='bg-orange hidden rounded-sm sm:flex justify-center place-items-center gap-1 text-[1rem] text-white px-6 py-1 font-semibold'>
-                        <p>LOG IN</p>
+                    <Link href='/login' className='bg-orange hidden rounded-sm sm:flex justify-center place-items-center gap-1 text-[1rem] text-white px-[3rem] py-[.7rem] font-semibold'>
+                        <p className='text-1rem'>LOG IN</p>
                         <Image src={Images.signIn} alt='signin' height={15} priority={true} />
                     </Link>
 

@@ -42,7 +42,7 @@ const links = {
 }
 const Footer = () => {
   return (
-    <div className="grid grid-cols-4 font-manrope place-items-stretch sm:gap-x-3 gap-x-[.3rem] py-[2rem] px-[1rem]">
+    <div className="grid grid-cols-4 font-manrope place-items-stretch sm:gap-x-3 gap-x-[.3rem] py-[2rem] sm:px-[3rem] px-2">
       <div className="flex flex-col gap-3 w-full justify-end  ">
         <h2 className="text-left ml-[8%] font-manrope font-bold">KASI</h2>
         <Image src={Images.blackStripes} width={200} alt='black-stripes' priority={true}/>
@@ -80,7 +80,7 @@ const Footer = () => {
 
         <div className="flex flex-col gap-1">
           <p className="text-grey font-semibold text-[.9rem] ">Location</p>
-          <p className="text-sm sm:w-[80%] font-semibold">Visit Us on 8th Floor, PineTree Plaza, Along Kindaruma Road, Kilimani</p>
+          <p className="text-sm  font-semibold">Visit Us on 8th Floor, PineTree Plaza, Along Kindaruma Road, Kilimani</p>
         </div>
 
       </div>

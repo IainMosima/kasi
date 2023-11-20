@@ -4,6 +4,24 @@
   -moz-box-shadow: 4px 8px 10px 0px rgba(0, 0, 0, 0.1);
 }
 
-.custom-background {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.35) 0%, rgba(0, 0, 0, 0.35) 100%), url(/public/assets/smiling2.png), lightgray 0px -10.117px / 100% 166.657% no-repeat;
+.animated-image {
+  position: relative;
+  overflow: hidden; /* Ensure content stays within the boundaries of the div */
+
+  img {
+    position: relative;
+    animation: slideAndFade 2.5s ease-in-out forwards;
+  }
+}
+
+
+@keyframes slideAndFade {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
