@@ -168,7 +168,7 @@ const Body = () => {
       <div className='flex lg:flex-row flex-col w-full gap-6 lg:gap-[10rem]'>
         <div className='flex flex-col lg:flex-col gap-2 basis-[40%] md:flex-row md:justify-between lg:justify-center w-full'>
           <h3 className='text-left font-base font-noraml'>Our Ethos</h3>
-          <p className='text-left text-[1.5rem] font-manrope font-normal md:basis-[50%]'>{`At KASI, our ethos is grounded in reliability, innovation, and a steadfast dedication to our clients' success. We believe in going the extra mile, ensuring that your deliveriesreach you safely and efficiently.`}</p>
+          <p className='text-left text-[1.1rem] font-manrope font-normal md:basis-[50%]'>{`At KASI, our ethos is grounded in reliability, innovation, and a steadfast dedication to our clients' success. We believe in going the extra mile, ensuring that your deliveriesreach you safely and efficiently.`}</p>
         </div>
         <Image src={Images.delivery} alt='delivery' priority={true} className='lg:hidden self-center' />
 
