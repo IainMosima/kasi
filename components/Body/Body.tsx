@@ -1,5 +1,4 @@
-'use-client';
-import React, { useState } from 'react';
+import React from 'react';
 import { Images } from '@/constants';
 import Image from 'next/image';
 import Link from 'next/link';

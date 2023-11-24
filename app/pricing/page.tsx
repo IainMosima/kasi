@@ -1,6 +1,8 @@
+import Pricing from "@/components/Pricing/Pricing"
+
 const page = () => {
   return (
-    <div>Pricing Page</div>
+    <Pricing/>
   )
 }
 
