@@ -77,9 +77,9 @@ const Body = () => {
   return (
     <main className='w-full flex flex-col place-items-center gap-[4.1rem]'>
       {/* part 1 */}
-      <div className='w-full flex flex-col place-items-center gap-4'>
+      <div className='w-full flex flex-col place-items-center gap-[4rem]'>
 
-        <h1 className='text-center w-[93%] font-base'><span className='text-green'>KASI</span> is a B2B <span className='text-green'>logistics</span> solutions provider dedicated to assisting brands with their specific challenges related to the <span className='text-green'>pickup and delivery</span> of products</h1>
+        <h1 className='text-center w-[80%] font-base'><span className='text-green'>KASI</span> is a B2B <span className='text-green'>logistics</span> solutions provider dedicated to assisting brands with their specific challenges related to the <span className='text-green'>pickup and delivery</span> of products</h1>
         
         <div className='animated-image w-full h-full flex justify-center'>
         <Image
@@ -89,8 +89,6 @@ const Body = () => {
           />
         </div>
 
-
-
       </div>
 
       {/* part 2 */}
@@ -99,7 +97,7 @@ const Body = () => {
         <div className='flex justify-between w-full flex-col lg:flex-col md:flex-row gap-7'>
           <h3 className='lg:leading-[3.4rem] font-semibold tracking-wide font-base sm:w-[40%]'>Partners we work with</h3>
           {/* <div className='flex flex-col font-semibold tracking-wide font-base w-[23%]'></div> */}
-          <p className='font-manrope sm:w-[40%] text-[1.2rem]'>At KASI our success is intertwined with the invaluable support of our partners. We deeply appreciate the collaborative spirit and unwavering commitment you bring to our journey.</p>
+          <p className='font-manrope sm:w-[50%] text-[1.2rem]'>At KASI our success is intertwined with the invaluable support of our partners. We deeply appreciate the collaborative spirit and unwavering commitment you bring to our journey.</p>
         </div>
 
         <div className='grid lg:grid-cols-4 grid-cols-8 sm:gap-x-[4rem] gap-y-[3rem] w-full gap-x-[1rem] justify-items-end'>

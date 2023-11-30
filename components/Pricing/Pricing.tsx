@@ -1,7 +1,10 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image';
 import './Pricing.scss';
 import React from 'react'
 import { Images } from '@/constants';
+import Faqs from './FAQs/Faqs';
+import Link from 'next/link';
 
 const pricingList = [
     {
@@ -39,15 +42,17 @@ const pricingList = [
         // eslint-disable-next-line react/no-unescaped-entities
         info1: <p className='text-grey font-manrope text-[1rem]'>In Kenya, KASI has a simple <span className='font-bold text-black'>18% Service Fee</span> based on NTSA rules and regulations. This fee helps drivers connect with customers through our platform. It also supports things like improving our platform, keeping our drivers safe, and providing top-notch support. So, every time you choose KASI, you're getting quality and assurance!</p>,
     }
-]
+];
+
+
 
 const Pricing = () => {
-    return (
+   return (
         <main className='w-full flex flex-col gap-[4.1rem]'>
             {/* part 1 */}
             <div className='flex flex-col gap-6 w-full'>
                 <h1 className='text-left lg:w-[22%] md:w-[32%] w-[45%] font-base font-semibold leading-[3.2rem]'>How do we <span className='text-green'>price</span> our rides?</h1>
-                <p className='text-[1.1rem] font-manrope font-normal'>{`At KASI, we believe in clear, straightforward, and fair pricing. Here's how we ensure you always get the best bang for your buck`}</p>
+                <p className='text-[1.1rem] lg:w-[32%] md:w-[53%] w-[90%] font-manrope font-normal'>{`At KASI, we believe in clear, straightforward, and fair pricing. Here's how we ensure you always get the best bang for your buck`}</p>
             </div>
 
             {/* part 2 */}
@@ -100,12 +105,26 @@ const Pricing = () => {
             </div>
 
             {/* part 3 */}
-            <div className='flex justify-between lg:flex-row flex-col'>
-                <h3 className='font-semibold sm:w-[25%] tracking-wide font-base'>Frequently Asked <span className='text-green'>Questions</span></h3>
+            <div className='flex justify-between flex-col w-full'>
+                <h3 className='font-semibold lg:w-[25%] tracking-wide font-base'>Frequently Asked <span className='text-green'>Questions</span></h3>
 
-                <div className='flex lg:flex-row flex-col'></div>
+                <div className='flex lg:flex-row flex-col gap-10 w-full justify-between'>
+                    <Faqs/>                    
+
+                    <div className='flex flex-col gap-7 w-full'>
+                        <Image src={Images.motorcycle3} alt='motorcycle-2'/>
+
+                        <h4>Using KASI isn't just about getting from Point A to Point B. It's about <span className='text-green'>a seamless, eco-friendly journey</span> with <span className='text-green'>transparent pricing</span> every step of the way. Ride with us and experience the KASI difference!</h4>
+
+                        <p className='text-[1.2rem] text-grey lg:w-[75%] lg:ml-0 ml-8 font-manrope'>Experience the future of <span className='text-green'>efficient and eco-friendly delivery</span> with KASI. <span className='text-green'>Sign up today</span> to unlock a world of benefits from <span className='text-green'>cost-effective pricing</span> that makes deliveries affordable to scalable solutions accommodating your evolving needs. Our commitment to eco-friendliness ensures sustainable logistics without compromising <span className='text-green'>efficiency</span>. Join KASI for a smarter, greener, and more affordable <span className='text-green'>delivery</span> experience tailored just for you.</p>
+
+                        <Link href='/sign-up' className='bg-green text-white text-center lg:ml-0 ml-8 rounded-sm py-3 w-[14rem] text-[1.4rem]'>Sign Up</Link>
+                    </div>
+                </div>
             
             </div>
+            
+
 
             <br />
 

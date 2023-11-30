@@ -32,7 +32,7 @@
     @apply text-[30px] lg:text-[49px] md:text-[35px]
   }
   h4 {
-    @apply text-[15px] lg:text-[22px] md:text-[20x]
+    @apply text-[20px] lg:text-[22px] md:text-[20x]
   }
   h5 {
     @apply text-[28px] lg:text-[18px] md:text-[16px]
