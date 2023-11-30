@@ -112,7 +112,7 @@ const Pricing = () => {
                     <Faqs/>                    
 
                     <div className='flex flex-col gap-7 w-full'>
-                        <Image src={Images.motorcycle3} alt='motorcycle-2'/>
+                        <Image src={Images.motorcycle3} alt='motorcycle-2' priority={true}/>
 
                         <h4>Using KASI isn't just about getting from Point A to Point B. It's about <span className='text-green'>a seamless, eco-friendly journey</span> with <span className='text-green'>transparent pricing</span> every step of the way. Ride with us and experience the KASI difference!</h4>
 
