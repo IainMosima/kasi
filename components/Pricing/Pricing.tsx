@@ -108,10 +108,10 @@ const Pricing = () => {
             <div className='flex justify-between flex-col w-full'>
                 <h3 className='font-semibold lg:w-[25%] tracking-wide font-base'>Frequently Asked <span className='text-green'>Questions</span></h3>
 
-                <div className='flex lg:flex-row flex-col gap-10 w-full justify-between'>
+                <div className='flex lg:flex-row flex-col gap-[3rem] w-full justify-between'>
                     <Faqs/>                    
 
-                    <div className='flex flex-col gap-7 w-full'>
+                    <div className='flex flex-col gap-[2.5rem] w-full'>
                         <Image src={Images.motorcycle3} alt='motorcycle-2' priority={true}/>
 
                         <h4>Using KASI isn't just about getting from Point A to Point B. It's about <span className='text-green'>a seamless, eco-friendly journey</span> with <span className='text-green'>transparent pricing</span> every step of the way. Ride with us and experience the KASI difference!</h4>
