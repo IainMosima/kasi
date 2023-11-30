@@ -118,7 +118,7 @@ const Body = () => {
         <div className='flex w-full flex-col gap-2 justify-start'>
           <hr className=' border-t-2 border-gray rounded-full w-full' />
           <div className='grid sm:grid-cols-3 place-items-start justify-start gap-2'>
-            <h4 className='tracking-wide font-semibold self-center text-[1.6rem]'>Orders Per Month</h4>
+            <h4 className='tracking-wide self-center text-[1.6rem]'>Orders Per Month</h4>
             <p className='text-grey text-left text-[1.1rem] sm:place-self-center'>Our commitment to seamless logistics and dedicated service consistently results in high order volumes month after month, showcasing our reliability and excellence in meeting your needs.</p>
             <p className='font-manrope text-left sm:place-self-center lg:text-[6rem] text-[4rem] font-normal'>5000+</p>
           </div>
@@ -127,7 +127,7 @@ const Body = () => {
         <div className='flex w-full flex-col gap-2 justify-start'>
           <hr className=' border-t-2 border-gray rounded-full w-full' />
           <div className='grid sm:grid-cols-3 place-items-start justify-start gap-2'>
-            <h4 className='tracking-wide font-semibold self-center text-[1.6rem]'>Average Delivery Time</h4>
+            <h4 className='tracking-wide self-center text-[1.6rem]'>Average Delivery Time</h4>
             <p className='text-grey text-left text-[1.1rem] sm:place-self-center'>Our dedicated team consistently achieves swift delivery times, ensuring your deliveries reach their destinations promptly. We understand the importance of timely deliveries, and we make it our mission to exceed your expectations.</p>
             <p className='font-manrope text-left sm:place-self-center lg:text-[6rem] text-[4rem] font-normal'>15 MIN</p>
           </div>
@@ -136,7 +136,7 @@ const Body = () => {
         <div className='flex w-full flex-col gap-2 justify-start'>
           <hr className=' border-t-2 border-gray rounded-full w-full' />
           <div className='grid sm:grid-cols-3 place-items-start justify-start gap-2'>
-            <h4 className='tracking-wide font-semibold self-center text-[1.6rem]'>Customer Services Rating</h4>
+            <h4 className='tracking-wide self-center text-[1.6rem]'>Customer Services Rating</h4>
             <p className='text-grey text-left text-[1.1rem] sm:place-self-center'>Our commitment to excellence extends to every aspect
               of our service, including customer care. We take pride in consistently delivering top-notch logistics solutions, and your satisfaction is our measure of success.</p>
             <p className='font-manrope text-left sm:place-self-center lg:text-[6rem] text-[4rem] font-normal'>09/10</p>
