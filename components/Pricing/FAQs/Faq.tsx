@@ -27,13 +27,13 @@ const Faq = (props: Props) => {
                     height={20}
                     className={`transform ease-linear duration-150 ${props.expanded ? 'rotate-45' : 'rotate-0'}`}
                 />
-                <p className='text-base font-semibold text-[1.1rem] leading-6'>{props.faq.question}</p>
+                <p className='text-base font-semibold text-[1.4rem] leading-6'>{props.faq.question}</p>
             </div>
             {/* second div */}
             {props.expanded && (
                 <div className={`px-7`}>
                     <div className='border-l-4 border-orange lg:w-[80%] md:w-[85%] w-[90%] px-3'>
-                        <p className='text-gray font-manrope text-[1rem]'>{props.faq.answer}</p>
+                        <p className='text-gray font-manrope text-[1.3rem]'>{props.faq.answer}</p>
                     </div>
                 </div>
             )}

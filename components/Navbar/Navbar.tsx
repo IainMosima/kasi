@@ -25,7 +25,7 @@ const Navbar = () => {
                     </Link>
 
                     {/* desktop links */}
-                    <div className=' justify-evenly gap-6 text-[1rem] place-items-center hidden sm:flex font-semibold font-manrope '>
+                    <div className=' justify-evenly gap-6 text-[1rem] place-items-center hidden sm:flex font-semibold font-manrope tracking-wider'>
                         <Link href='/' className={`hover:after:content-[' '] hover:after:absolute hover:after:w-2 hover:after:h-2 hover:after:bg-green hover:after:rounded-full hover:after:bottom-[-0.5rem] hover:after:ml-[-1.8rem] after:mt-[2rem] relative hover:text-green transition-colors ease-out duration-75 ${currentTab === 'home' ? "after:content-[' '] after:absolute after:w-2 after:h-2 after:bg-green after:rounded-full after:bottom-[-0.5rem] after:ml-[-1.8rem] after:mt-[2rem] relative text-green" : ''}`}>HOME</Link>
 
                         <Link href='/pricing' className={`hover:after:content-[' '] hover:after:absolute hover:after:w-2 hover:after:h-2 hover:after:bg-green hover:after:rounded-full hover:after:bottom-[-0.5rem] hover:after:ml-[-2.3rem] after:mt-[2rem] relative hover:text-green transition-colors ease-out duration-75 ${currentTab === 'pricing' ? "after:content-[' '] after:absolute after:w-2 after:h-2 after:bg-green after:rounded-full after:bottom-[-0.5rem] after:ml-[-2.3rem] after:mt-[2rem] relative text-green" : ''}`}>PRICING</Link>
