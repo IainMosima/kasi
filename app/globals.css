@@ -24,6 +24,10 @@
   scroll-behavior: smooth;
 }
 
+div {
+  @apply outline-none;
+}
+
 @layer components {
   h1 {
     @apply text-[24px] lg:text-[48px] md:text-[36px]
