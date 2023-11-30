@@ -20,7 +20,7 @@ const Navbar = () => {
             <div className='relative'>
                 <div className='flex  justify-between custom-shadow py-3 sm:px-[2rem] p-[1rem] place-items-center bg-white'>
                     {/* logo */}
-                    <Link href='/' style={{ WebkitTapHighlightColor: 'transparent' }}>
+                    <Link href='/' style={{ WebkitTapHighlightColor: 'transparent' }} onClick={() => setMenuToggle(false)}>
                         <Image src={Images.logo} alt="logo" width={120} priority={true} />
                     </Link>
 
