@@ -30,6 +30,7 @@ const Faqs = () => {
 
     const handleExpandFaq = (index: number) => {
         setExpandedFaqIndex(prevIndex => prevIndex === index ? -1 : index);
+        console.log(index);
     }
 
     return (
