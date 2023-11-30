@@ -23,14 +23,14 @@
   margin: 0;
   scroll-behavior: smooth;
 }
-
+/* 
 div {
-  @apply outline-none;
-}
+  @apply focus:outline-none;
+} */
 
 @layer components {
   h1 {
-    @apply text-[24px] lg:text-[48px] md:text-[36px]
+    @apply text-[26px] lg:text-[48px] md:text-[36px]
   }
   h3 {
     @apply text-[30px] lg:text-[49px] md:text-[35px]

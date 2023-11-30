@@ -79,7 +79,7 @@ const Body = () => {
       {/* part 1 */}
       <div className='w-full flex flex-col place-items-center gap-[4rem]'>
 
-        <h1 className='text-center w-[80%] font-base'><span className='text-green'>KASI</span> is a B2B <span className='text-green'>logistics</span> solutions provider dedicated to assisting brands with their specific challenges related to the <span className='text-green'>pickup and delivery</span> of products</h1>
+        <h1 className='lg:text-center md:text-center text-left sm:w-[80%] font-normal font-base'><span className='text-green'>KASI</span> is a B2B <span className='text-green'>logistics</span> solutions provider dedicated to assisting brands with their specific challenges related to the <span className='text-green'>pickup and delivery</span> of products</h1>
         
         <div className='animated-image w-full h-full flex justify-center'>
         <Image
