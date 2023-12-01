@@ -80,12 +80,12 @@ const Body = () => {
       <div className='w-full flex flex-col place-items-center gap-[4rem]'>
 
         <h1 className='lg:text-center md:text-center text-left sm:w-[80%] font-normal font-base'><span className='text-green'>KASI</span> is a B2B <span className='text-green'>logistics</span> solutions provider dedicated to assisting brands with their specific challenges related to the <span className='text-green'>pickup and delivery</span> of products</h1>
-        
+
         <div className='animated-image w-full h-full flex justify-center'>
-        <Image
-          src={Images.homeImage}
-          alt="home-image"
-          priority={true}
+          <Image
+            src={Images.homeImage}
+            alt="home-image"
+            priority={true}
           />
         </div>
 
@@ -195,11 +195,13 @@ const Body = () => {
 
         <div className='grid lg:grid-cols-9 md:grid-cols-6 grid-cols-3 gap-[2rem] sm:px-0 px-3 w-full'>
           {values.map(value => (
-            <div key={value.heading} className='grid grid-rows-3 col-span-3  border p-[1.5rem] w-full h-full border-[#F2F2F2] bg-[#FBFBFB] '>
-              <Image src={value.image} alt={value.heading} className='mb-[2.2rem]' priority={true} width={26} />
-              <p className='text-[2.5rem] font-bold leading-5 text-orange font-space'>{value.number}</p>
-              <p className='text-[1.5rem] font-base font-bold '>{value.heading}</p>
-              <p className='font-manrope text-[1.3rem] font-normal text-gray'>We strive for perfection in every facet of our service, ensuring our clients receive unmatched quality at all times.</p>
+            <div key={value.heading} className='flex flex-col place-items center col-span-3  border p-[1.5rem] w-full h-full border-[#F2F2F2] bg-[#FBFBFB] '>
+              <Image src={value.image} alt={value.heading} className='mb-[2.2rem]' priority={true} width={35} />
+              <p className='text-[2.5rem] font-bold leading-5 text-orange font-space mt-[2.5rem]'>{value.number}</p>
+              <div className='flex flex-col mt-[2.3rem]'>
+                <p className='text-[1.5rem] font-base font-bold '>{value.heading}</p>
+                <p className='font-manrope text-[1.2rem] font-normal text-gray'>{value.body}</p>
+              </div>
             </div>
           ))}
           <Link href='/sign-up' className='col-span-3 '>

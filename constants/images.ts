@@ -31,8 +31,12 @@ import motorcycle2 from '@/public/assets/mortocyle2.png';
 import motorcycle3 from '@/public/assets/mortocyle3.png';
 import smiling from '@/public/assets/smiling.png';
 import smiling2 from '@/public/assets/smiling2.png';
+import smiling3 from '@/public/assets/smiling3.png';
 import email from '@/public/icons/email.png';
 import plus from '@/public/icons/plus.png';
+import box from '@/public/icons/box.png';
+import call from '@/public/icons/call.png';
+import contact from '@/public/icons/contact.png';
 
 export default {
         logo,
@@ -67,7 +71,11 @@ export default {
         motorcycle3,
         smiling,
         smiling2,
+        smiling3,
         email,
         plus,
-        
+        box,
+        call,
+        contact,
+
 }
