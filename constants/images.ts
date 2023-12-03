@@ -38,6 +38,8 @@ import plus from '@/public/icons/plus.png';
 import box from '@/public/icons/box.png';
 import call from '@/public/icons/call.png';
 import contact from '@/public/icons/contact.png';
+import showPassword from '@/public/icons/showPassword.png';
+import notShowPassword from '@/public/icons/notShowPassword.png';
 
 export default {
         logo,
@@ -79,5 +81,7 @@ export default {
         box,
         call,
         contact,
+        showPassword,
+        notShowPassword,
 
 }
