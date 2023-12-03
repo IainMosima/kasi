@@ -45,6 +45,10 @@ div {
   body {
     @apply text-[18px] lg:text-[28px] md:text-[16px] w-full
   }
+  .h1-forced {
+    @apply text-[30px] lg:text-[48px] md:text-[40px] !important;
+
+  }
 }
 
 /* Target the scrollbar */

@@ -51,8 +51,8 @@ const Pricing = () => {
         <main className='w-full flex flex-col gap-[4.1rem]'>
             {/* part 1 */}
             <div className='flex flex-col gap-6 w-full'>
-                <h1 className='text-left lg:w-[22%] md:w-[32%] w-[45%] font-base font-semibold leading-[3.2rem]'>How do we <span className='text-green'>price</span> our rides?</h1>
-                <p className='text-[1.4rem] lg:w-[32%] md:w-[53%] w-[90%] font-manrope font-normal'>{`At KASI, we believe in clear, straightforward, and fair pricing. Here's how we ensure you always get the best bang for your buck`}</p>
+                <h1 className='h1-forced text-left lg:w-[22%] md:w-[42%] w-[65%] font-base font-semibold leading-[3.2rem]'>How do we <span className='text-green'>price</span> our rides?</h1>
+                <p className='text-[1.4rem] lg:w-[32%] w-full font-manrope font-normal'>{`At KASI, we believe in clear, straightforward, and fair pricing. Here's how we ensure you always get the best bang for your buck`}</p>
             </div>
 
             {/* part 2 */}
