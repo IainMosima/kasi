@@ -27,6 +27,7 @@ import rings from '@/public/icons/rings.png';
 import delivery2 from '@/public/assets/delivery2.png';
 import delivery3 from '@/public/assets/delivery3.png';
 import delivery4 from '@/public/assets/delivery4.png';
+import delivery5 from '@/public/assets/delivery5.png';
 import motorcycle2 from '@/public/assets/mortocyle2.png';
 import motorcycle3 from '@/public/assets/mortocyle3.png';
 import smiling from '@/public/assets/smiling.png';
@@ -67,6 +68,7 @@ export default {
         delivery2,
         delivery3,
         delivery4,
+        delivery5,
         motorcycle2,
         motorcycle3,
         smiling,

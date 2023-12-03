@@ -95,9 +95,8 @@ const SignUp = () => {
                             <label className='text-[1.3rem] text-grey'>Pin Location of business<span className='text-red'>*</span></label>
 
                         </div>
-
-
                     </form>
+                    
                     <button className='bg-green text-white text-center rounded-[4px] py-2 w-[35%] text-[1.3rem]'>Sign Up</button>
 
 

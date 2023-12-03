@@ -1,6 +1,8 @@
+import Login from "@/components/Login/Login"
+
 const page = () => {
   return (
-    <div>Login Page</div>
+    <Login/>
   )
 }
 
