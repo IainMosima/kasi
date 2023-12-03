@@ -1,6 +1,8 @@
+import Contact from "@/components/Contact/Contact"
+
 const page = () => {
   return (
-    <div>Contact Page</div>
+    <Contact/>
   )
 }
 

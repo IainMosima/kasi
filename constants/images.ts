@@ -40,6 +40,7 @@ import call from '@/public/icons/call.png';
 import contact from '@/public/icons/contact.png';
 import showPassword from '@/public/icons/showPassword.png';
 import notShowPassword from '@/public/icons/notShowPassword.png';
+import map from '@/public/assets/map.png';
 
 export default {
         logo,
@@ -83,5 +84,5 @@ export default {
         contact,
         showPassword,
         notShowPassword,
-
+        map,
 }
