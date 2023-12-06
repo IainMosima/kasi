@@ -61,7 +61,6 @@ const SignUp = () => {
                 <div className='flex flex-col gap-4 basis-[40%] border border-[#EDEDED] justify-start place-items-start px-[1.5rem] py-[2rem]'>
                     <p className='font-base text-[2rem] font-semibold'>Let's Begin</p>
 
-
                     <SignUpForm />
 
                 </div>
