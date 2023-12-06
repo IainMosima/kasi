@@ -6,7 +6,7 @@ import ContactForm from './ContactForm';
 
 const Contact = () => {
     return (
-        <main className='w-full flex flex-col gap-[4.1rem]'>
+        <main className='w-full flex flex-col gap-[4.1rem] h-full'>
             {/* part 1 */}
             <div className='flex flex-col gap-6 w-full'>
                 <h1 className='h1-forced text-left lg:w-[22%] md:w-[42%] w-[65%] font-base font-semibold leading-[3.2rem]'>Get in <span className='text-green'>touch with us</span></h1>
@@ -17,14 +17,25 @@ const Contact = () => {
             <Image src={Images.smiling2} alt='smiling' priority={true} />
 
             {/* part 3 */}
-            <div className='flex flex-col font-base w-full '>
-                <p className='text-[2.2rem] font-semibold'>Fill the <span className='text-green'>Contact Form</span></p>
+            <div className='flex lg:flex-row flex-col font-base w-full lg:gap-[4rem] gap-4 h-full'>
 
-                <div className='flex gap-6 lg:flex-row flex-col'>
-                    <Image src={Images.map} alt='just-a-map' className='self-end' height={310} priority={true}/>
+                <div className='w-full flex flex-col lg:h-[48rem] lg:justify-between'>
+                    <p className='text-[2.2rem] lg:w-[30%] font-semibold'>Fill the <span className='text-green'>Contact Form</span></p>
 
+                    <div className='lg:block hidden'>
+                        <Image src={Images.map} alt='just-a-map' className='w-full' priority={true} />
+                    </div>
+                </div>
+
+                <div className='w-full'>
                     <ContactForm />
                 </div>
+
+                <div className='lg:hidden block mt-4'>
+                    <Image src={Images.map} alt='just-a-map' className='w-full' priority={true} />
+                </div>
+
+
 
             </div>
 
