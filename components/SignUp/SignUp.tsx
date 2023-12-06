@@ -46,8 +46,8 @@ const SignUp = () => {
 
                     <div className='grid lg:grid-cols-9 md:grid-cols-6 grid-cols-1 gap-5 px-[1.2rem] w-full'>
                         {values.map(value => (
-                            <div key={value.heading} className='flex sm:px-[1.5rem] flex-col sm:col-span-3  border p-[1.5rem] w-full h-full border-[#F2F2F2] bg-[#FBFBFB]'>
-                                <Image src={value.image} alt={value.heading} className='mb-[2.2rem]' priority={true} width={30} />
+                            <div key={value.heading} className='flex flex-col aspect-square col-span-3  border p-[1.5rem] w-full h-full border-[#F2F2F2] bg-[#FBFBFB] '>
+                                <Image src={value.image} alt={value.heading} className='mb-[2.2rem]' priority={true} width={35} />
                                 <p className='text-[2.5rem] font-bold leading-5 text-orange font-space mt-[2.5rem]'>{value.number}</p>
                                 <div className='flex flex-col mt-[2.3rem]'>
                                     <p className='text-[1.5rem] font-base font-bold '>{value.heading}</p>
@@ -59,7 +59,7 @@ const SignUp = () => {
                 </div>
 
                 <div className='flex flex-col gap-4 basis-[40%] border border-[#EDEDED] justify-start place-items-start px-[1.5rem] py-[2rem]'>
-                    <p className='font text-[1.6rem]-base font-semibold'>Let's Begin</p>
+                    <p className='font-base text-[2rem] font-semibold'>Let's Begin</p>
 
 
                     <SignUpForm />

@@ -75,7 +75,7 @@ const Body = () => {
 
 
   return (
-    <main className='w-full flex flex-col place-items-center gap-[4.1rem]'>
+    <main className='w-full flex flex-col place-items-center lg:gap-[10rem] md:gap-[8rem] gap-[5rem]'>
       {/* part 1 */}
       <div className='w-full flex flex-col place-items-center gap-[4rem]'>
 
@@ -97,7 +97,7 @@ const Body = () => {
         <div className='flex justify-between w-full flex-col lg:flex-col md:flex-row gap-7'>
           <h3 className='lg:leading-[3.4rem] font-semibold tracking-wide font-base sm:w-[40%]'>Partners we work with</h3>
           {/* <div className='flex flex-col font-semibold tracking-wide font-base w-[23%]'></div> */}
-          <p className='font-manrope sm:w-[50%] text-[1.5rem]'>At KASI our success is intertwined with the invaluable support of our partners. We deeply appreciate the collaborative spirit and unwavering commitment you bring to our journey.</p>
+          <p className='font-manrope sm:w-[64%] text-[1.5rem]'>At KASI our success is intertwined with the invaluable support of our partners. We deeply appreciate the collaborative spirit and unwavering commitment you bring to our journey.</p>
         </div>
 
         <div className='grid lg:grid-cols-4 grid-cols-8 sm:gap-x-[4rem] gap-y-[3rem] w-full gap-x-[1rem] justify-items-end'>
@@ -170,17 +170,23 @@ const Body = () => {
         <Image src={Images.delivery} alt='delivery' priority={true} className='lg:hidden self-center' />
 
 
-        <div className='grid sm:grid-cols-2 gap-[2rem] sm:px-0 px-3 w-full'>
-          <div className='grid grid-rows-3 border px-[3rem] gap-5 py-[1.5rem] w-[full] h-[full] bg-[#201F1D] custom-shadow'>
+        <div className='grid sm:grid-cols-2 gap-[2rem] sm:px-0 px-3 w-full h-full'>
+          <div className='flex flex-col justify-between border px-[3rem] gap-5 py-[1.5rem] w-full h-full aspect-square bg-[#201F1D] custom-shadow'>
             <p className='font-base text-[2.1rem] w-[40%] font-bold text-[#D5F756]'>Our Mission</p>
             <Image src={Images.greenStripes} alt='green-stripes' className='place-self-end' priority={true} height={110} />
-            <p className='font-manrope text-[1.2rem] font-normal place-self-center text-white'>{`Empowering brands with seamless logistics: From pickup to delivery, we're with you every step of the way.`}</p>
+            <div className='flex flex-col'>
+              <p className='font-manrope text-[1.2rem] font-normal place-self-center text-white'>{`Empowering brands with seamless logistics: From pickup to delivery, we're with you every step of the way.`}</p>
+              <p className='font-space text-[#D5F756] self-end'>01</p>
+            </div>
           </div>
 
-          <div className='grid grid-rows-3 border px-[3rem] gap-5 py-[1.5rem] w-[full] h-[full] bg-green custom-shadow  '>
+          <div className='flex flex-col justify-between border px-[3rem] gap-5 py-[1.5rem] w-full h-full bg-green aspect-square custom-shadow  '>
             <p className='font-base text-[2.1rem] w-[40%] font-bold text-white'>Our Vision</p>
             <Image src={Images.whiteStripes} alt='white-stripes' priority={true} className='place-self-end' height={110} />
-            <p className='font-manrope text-[1.2rem] font-normal place-self-center text-white'>{`To be the foremost choice in logistics solutions, setting industry standards and creating a world where product distribution is effortless and reliable.`}</p>
+            <div className='flex flex-col'>
+              <p className='font-manrope text-[1.2rem] font-normal place-self-center text-white'>{`To be the foremost choice in logistics solutions, setting industry standards and creating a world where product distribution is effortless and reliable.`}</p>
+              <p className='font-space text-white self-end'>02</p>
+            </div>
           </div>
         </div>
 
@@ -195,7 +201,7 @@ const Body = () => {
 
         <div className='grid lg:grid-cols-9 md:grid-cols-6 grid-cols-3 gap-[2rem] sm:px-0 px-3 w-full'>
           {values.map(value => (
-            <div key={value.heading} className='flex flex-col place-items center col-span-3  border p-[1.5rem] w-full h-full border-[#F2F2F2] bg-[#FBFBFB] '>
+            <div key={value.heading} className='flex flex-col aspect-square col-span-3  border p-[1.5rem] w-full h-full border-[#F2F2F2] bg-[#FBFBFB] '>
               <Image src={value.image} alt={value.heading} className='mb-[2.2rem]' priority={true} width={35} />
               <p className='text-[2.5rem] font-bold leading-5 text-orange font-space mt-[2.5rem]'>{value.number}</p>
               <div className='flex flex-col mt-[2.3rem]'>
@@ -204,7 +210,7 @@ const Body = () => {
               </div>
             </div>
           ))}
-          <Link href='/sign-up' className='col-span-3 '>
+          <Link href='/sign-up' className='col-span-3 aspect-square h-full w-full'>
             <div className=' grid gap-2 w-full h-full border-[#F2F2F2] bg-green'>
               <Image src={Images.intersection} alt='intersection' height={150} className='place-self-end self-start' priority={true} />
               <div className='flex w-full flex-col p-3 gap-3 justify-between'>
@@ -348,7 +354,7 @@ const Body = () => {
         <div className='flex col-span-3 w-full justify-end'>
           <Link href='/pricing' className='col-span-2 lg:w-[30%] md:w-[50%] w-full'>
             <div className='flex flex-col w-full h-full p-3 border-[#F2F2F2] bg-orange'>
-              <p className='text-white font-base font-bold my-7 sm:ml-[1.2rem] sm:w-[70%] w-full sm:text-[2rem] text-[1.8rem]'>Our  wallet friendly pricing list is but one click away. Check it out.</p>
+              <p className='text-white font-base font-bold my-7 sm:ml-[1.2rem] sm:w-[70%] w-full sm:text-[2rem] text-[1.8rem]'>Our wallet friendly pricing list is but one click away. Check it out.</p>
               <Image src={Images.downArrow} alt='intersection' className='self-end' priority={true} />
             </div>
           </Link>

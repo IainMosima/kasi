@@ -1,5 +1,7 @@
 'use client';
-import React from 'react'
+import { Images } from '@/constants';
+import Image from 'next/image';
+import React from 'react';
 
 const SignUpForm = () => {
     return (
@@ -35,13 +37,15 @@ const SignUpForm = () => {
                     <input type='number' className='bg-[#F6F6F6] font-manrope backdrop-custom outline-none rounded-md focus:border-green focus:border-2 px-3 py-2 text-[1.2rem]' />
                 </div>
 
-                <div className='flex flex-col gap-3'>
+                <div className='flex flex-col gap-3 sm:col-span-2'>
                     <label className='text-[1.3rem] text-grey'>Pin Location of business<span className='text-red'>*</span></label>
+
+                    <Image src={Images.map2} alt='just-a-map' className='' priority={true} />
 
                 </div>
             </form>
 
-            <button className='bg-green text-white text-center rounded-[4px] py-2 w-[35%] text-[1.3rem]'>Sign Up</button>
+            <button className='bg-green text-white text-center rounded-[4px] lg:py-[.9rem] md:py-[.7rem] py-[.5rem] sm:w-[55%] w-[70%] text-[1.3rem]'>Sign Up</button>
         </div>
     )
 }

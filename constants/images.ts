@@ -41,6 +41,7 @@ import contact from '@/public/icons/contact.png';
 import showPassword from '@/public/icons/showPassword.png';
 import notShowPassword from '@/public/icons/notShowPassword.png';
 import map from '@/public/assets/map.png';
+import map2 from '@/public/assets/map2.png';
 
 export default {
         logo,
@@ -85,4 +86,5 @@ export default {
         showPassword,
         notShowPassword,
         map,
+        map2,
 }
