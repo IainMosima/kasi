@@ -152,8 +152,8 @@ const Body = () => {
           <h3 className='text-left font-base font-normal'>We continue to drive <span className='text-green'>excellence</span> in logistics, ensuring <span className='text-green'>seamless supply chains</span> and satisfied clients.</h3>
           <Image src={Images.motorcycle} height={400} alt='mortocycle' priority={true} />
           <div className='flex justify-between place-items-center w-full'>
-            <p className='text-green sm:text-[1.3rem] text-[.9rem] lg:w-[30%] md:w-[30%] w-[50%] font-semibold'>Get Started by Clicking the Sign Up button</p>
-            <Link href='/sign-up' className='text-white  bg-green sm:px-[3rem] sm:py-[1rem] px-[1.5rem] py-[.5rem] rounded-md flex place-items-center gap-2'>
+            <p className='text-green sm:text-[1.3rem] text-[.9rem] lg:w-[30%] md:w-[40%] w-[50%] font-semibold'>Get Started by Clicking the Sign Up button</p>
+            <Link href='/sign-up' className='text-white  bg-green sm:px-[3rem] sm:py-[1rem] px-[2.5rem] py-[.7rem] rounded-md flex place-items-center gap-2'>
               <p className='text-[1.4rem] text-base'>Sign Up</p>
               <Image src={Images.rightArrow} alt='right-arrow' priority={true} width={15} />
             </Link>
@@ -367,7 +367,7 @@ const Body = () => {
         <div className='w-full relative flex justify-center'>
           <Image src={Images.smiling2} alt='smiling' priority={true} />
 
-          <div className='flex flex-col justify-center place-items-center gap-5 w-full absolute lg:top-[30%] md:top-[23%] top-[10%]'>
+          <div className='flex flex-col justify-center place-items-center gap-5 w-full absolute lg:top-[30%] top-[10%]'>
             <p className='text-white lg:text-[3.5rem] md:text-[2.5rem] text-[1.12rem]  w-[47%] font-bold font-base text-center'>Get in touch with our customer care team</p>
 
             <Link href='/contact-us'>

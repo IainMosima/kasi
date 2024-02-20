@@ -42,6 +42,7 @@ import showPassword from '@/public/icons/showPassword.png';
 import notShowPassword from '@/public/icons/notShowPassword.png';
 import map from '@/public/assets/map.png';
 import map2 from '@/public/assets/map2.png';
+import dropDown from '@/public/icons/drop-down.png';
 
 export default {
         logo,
@@ -87,4 +88,5 @@ export default {
         notShowPassword,
         map,
         map2,
+        dropDown,
 }
